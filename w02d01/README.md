@@ -1,10 +1,10 @@
 # W02D01 - TDD, CommonJS, and NPM
 
 ### To Do
-- [ ] Manual testing
-- [ ] Making assertions
-- [ ] Bringing in outside code
-- [ ] Exporting our code
+- [x] Manual testing
+- [x] Making assertions
+- [x] Bringing in outside code
+- [x] Exporting our code
 - [ ] Intro to NPM: a Node package manager
 - [ ] Mocha test runner
 - [ ] Ignoring files/folders
@@ -12,7 +12,9 @@
 - [ ] What is TDD?
 - [ ] Practice unit testing
 
-
+1. how do we test our code
+2. code out of one file and into another
+3. bringing in outside code
 
 
 
