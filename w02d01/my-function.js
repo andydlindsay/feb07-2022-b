@@ -13,10 +13,17 @@ const sayHello = function (name) {
 // module.exports.sayHello = sayHello;
 // module.exports.meaningOfLife = 42;
 
+const thisThingThrows = () => {
+  throw new Error();
+};
+
 module.exports = {
   sayHello: sayHello,
   addTwo: (num) => {
     return num + 2;
   },
-  meaningOfLife: 42
+  meaningOfLife: 42,
+  thisThingThrows: thisThingThrows
 };
+
+// console.log(arguments);

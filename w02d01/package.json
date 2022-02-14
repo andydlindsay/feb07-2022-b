@@ -1,0 +1,20 @@
+{
+  "name": "w02d01",
+  "version": "1.0.0",
+  "description": "Lecture notes for fun testing lecture with Mocha",
+  "main": "my-function-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "tdd",
+    "mocha",
+    "fun"
+  ],
+  "author": "Andy Lindsay",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
+}
