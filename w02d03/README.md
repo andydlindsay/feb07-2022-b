@@ -5,7 +5,6 @@
 - [ ] TCP introduction
 - [ ] TCP demo
 - [ ] HTTP fundamentals
-- [ ] Simple HTTP client example
 
 
 
