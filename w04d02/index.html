@@ -1,16 +1,32 @@
 <html>
   <head>
     <title>My Page</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script2.js"></script> 
   </head>
   <body>
     <h1>Welcome to my page!</h1>
     <div class="content">
       <p>My Favourite Numbers</p>
+
+      <div>
+        <form id="new-task-form">
+          <label>New favourite thing:</label>
+          <input id="new-task-input" placeholder="hello there"/>
+          <button type="submit">Add to list</button>
+        </form>
+      </div>
+
       <ul id="main-list">
         <li>One</li>
         <li>Two</li>
         <li>Three</li>
       </ul>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

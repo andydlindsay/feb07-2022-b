@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+  color: limegreen;
+}
+
+.content {
+  border: 2px dotted burlywood;
+  border-radius: 15px;
+}
+
+#main-list {
+  border: 1px solid magenta;
+  border-radius: 15px;
+}
+
+li {
+  color: pink;
+}
