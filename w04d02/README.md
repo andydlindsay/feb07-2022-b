@@ -7,7 +7,7 @@
 - [x] Intro to jQuery
 - [x] Element creation and DOM manipulation with jQuery
 - [x] Event handling with jQuery
-- [ ] Document ready
+- [x] Document ready
 
 ### Similarity of Event Handlers
 
