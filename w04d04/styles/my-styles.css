@@ -1,0 +1,60 @@
+body {
+  font-size: 24px;
+  color: #4d5d53;
+  display: flex;
+}
+
+header, .my-div {
+  border: 2px solid #007474;
+  color: #C0FFEE;
+}
+
+main {
+  border: 1px dotted #007474;
+  color: #4d5d53;
+}
+
+.my-div {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 20px auto;
+}
+.content div {
+  color: brown;
+}
+.content div p {
+  color: pink;
+  font-size: 8px;
+}
+.content:hover {
+  color: #FF3800;
+}
+.content > li {
+  color: mediumaquamarine;
+}
+
+h1 {
+  height: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: pink;
+  color: #FF3800;
+}
+
+.medium-square {
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  border-width: 12.5px;
+}
+
+.large-square {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  border-width: 25px;
+}
+
+/*# sourceMappingURL=my-styles.css.map */

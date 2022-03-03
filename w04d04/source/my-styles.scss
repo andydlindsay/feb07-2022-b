@@ -1,0 +1,82 @@
+@import 'variables';
+
+body {
+  font-size: 24px;
+  color: $primary;
+  display: $flex;
+}
+
+header {
+  border: $border-width solid $border-color;
+  color: $secondary;
+}
+
+main {
+  border: 1px dotted $border-color;
+  color: $primary;
+}
+
+.my-div {
+  @extend header;
+  text-decoration: underline;
+}
+
+// content {
+
+// }
+
+// content p {
+
+// }
+
+// content:hover {
+
+// }
+
+.content {
+  margin: 20px auto;
+
+  div {
+    color: brown;
+
+    p {
+      color: pink;
+      font-size: 8px;
+    }
+  }
+
+  &:hover {
+    color: #FF3800;
+  }
+
+  & > li {
+    color: mediumaquamarine;
+  }
+}
+
+@mixin header-styles {
+  height: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: pink; 
+}
+
+h1 {
+  @include header-styles();
+  color: #FF3800;
+}
+
+@mixin create-square($side-length) {
+  width: 2 * $side-length;
+  height: $side-length;
+  line-height: $side-length;
+  border-width: calc($side-length / 2);
+}
+
+.medium-square {
+  @include create-square(25px);
+}
+
+.large-square {
+  @include create-square(50px);
+}
