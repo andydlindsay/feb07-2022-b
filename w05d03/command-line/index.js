@@ -18,8 +18,6 @@ const client = new Client(configObj);
 
 client.connect();
 
-
-
 const verb = process.argv[2];
 const id = process.argv[3];
 
