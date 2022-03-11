@@ -107,12 +107,16 @@ Rails Multi-page app
 * merge conflicts => two or more devs edit the same file
 * where do we merge our code?
   * command line
-  * cloud
+  * github pull requests
+* please don't code directly on master/main
 
+### Splitting up the work
+* vertical => all devs working on different layers of the stack
+* horizontal => everyone working on the same layer
+* pair programming
 
-
-
-
+### Communication
+* please communicate with each other
 
 
 
