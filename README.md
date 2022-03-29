@@ -10,3 +10,5 @@
 * [W07D02 - Component-Based UI w/ React](/w07d02)
 * [W07D04 - Data Fetching & Other Side Effects](/w07d04)
 * [W08D01 - React Review](/w08d01)
+* [W08D03 - End-to-End Testing with Cypress](/w08d03)
+* [W08D04 - Class-based Components](/w08d04)
