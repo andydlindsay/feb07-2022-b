@@ -5,7 +5,6 @@
 - [x] MVC Review
 - [x] Quickly build simple Rails app
 - [x] Nested Resources
-
 - [x] Partials ERB
 - [x] Scaffold command
 
